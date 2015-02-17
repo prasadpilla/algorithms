@@ -28,6 +28,7 @@ LinkedList.prototype.addNode = function (data) {
 	this.lastNode = newNodeLocation;
 }
 
+
 var a = new LinkedList()
 a.addNode(4)
 
