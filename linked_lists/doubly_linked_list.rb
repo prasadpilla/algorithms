@@ -47,6 +47,16 @@ class LinkedList
   	value
   end
 
+  def print
+    array = []
+    current = first
+    until current == last_node
+      array << current.value
+      current = current.after
+    end
+    p array
+  end
+
   def keep_ends
   	raise "linked list is empty" if is_empty?
   end
