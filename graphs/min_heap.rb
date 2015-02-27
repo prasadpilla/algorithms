@@ -22,6 +22,7 @@ class MinHeap
 		value = @items[0]
 		@items[0] = @items.pop
 		heapify_down(0, @items)
+		value
 	end
 
 	protected
