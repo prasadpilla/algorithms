@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative '../../graphs/dfs'
+require_relative '../../search/dfs'
 
 describe 'dfs' do
 	describe 'dfs_iterative' do

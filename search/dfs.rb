@@ -1,4 +1,4 @@
-require_relative 'tree'
+require_relative '../graphs/tree'
 
 class TreeNode
 	def dfs_iterative(target)

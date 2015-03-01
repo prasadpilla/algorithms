@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative '../../graphs/bfs'
+require_relative '../../search/bfs'
 
 describe 'bfs' do
 	it 'finds a node that exists' do

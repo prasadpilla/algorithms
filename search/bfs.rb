@@ -1,4 +1,4 @@
-require_relative 'tree'
+require_relative '../graphs/tree'
 require_relative '../queues_and_stacks/queue_from_linked_list'
 
 class TreeNode
