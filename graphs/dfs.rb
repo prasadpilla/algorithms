@@ -1,6 +1,6 @@
 require_relative 'tree'
 
-class Node
+class TreeNode
 	def dfs_iterative(target)
 		nodes_to_check = [self]
 		until nodes_to_check.empty?
