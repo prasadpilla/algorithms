@@ -1,4 +1,4 @@
-class Node
+class TreeNode
 	attr_accessor :parent, :children, :value
 
 	def initialize(value)

@@ -3,19 +3,19 @@ require_relative '../../graphs/bfs'
 
 describe 'bfs' do
 	it 'finds a node that exists' do
-		a = Node.new(1)
-		b = Node.new(2)
-		c = Node.new(3)
-
-		a.add_child(b)
-		a.add_child(c)
+		a = TreeNode.new(1)
+		b = TreeNode.new(2)
+		c = TreeNode.new(3)
+		
+		b.set_parent(a)
+		c.set_parent(a)
 
 		expect(a.bfs(3)).to eq(c)
 	end
 
 	it 'returns nil when no node exists' do
-		a = Node.new(1)
-		b = Node.new(2)
+		a = TreeNode.new(1)
+		b = TreeNode.new(2)
 
 		a.add_child(b)
 

@@ -1,7 +1,7 @@
 require_relative 'tree'
-require_relative '../queues_and_stacks/queue'
+require_relative '../queues_and_stacks/queue_from_linked_list'
 
-class Node
+class TreeNode
 	def bfs(target)
 		queue = Queue.new
 		queue.enqueue(self)
